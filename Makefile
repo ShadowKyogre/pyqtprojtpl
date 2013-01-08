@@ -10,6 +10,7 @@ all: prepare setup.py __init__.py gui.py guiconfig.py core.py $(APPNAME).desktop
 
 prepare:
 	mkdir -p $(DESTDIR)
+	cp COPYTING $(DESTDIR)
 
 README.md: prepare
 	m4 -D_APPNAME_=$(APPNAME) $@.in >$(DESTDIR)/$@
