@@ -6,7 +6,7 @@ ifeq ("$(DESTDIR)","")
 $(error What the fuck are you doing, please put your project somewhere!)
 endif
 
-all: prepare setup.py $(APPNAME)lib $(APPNAME).desktop README.md
+all: prepare setup.py __init__.py gui.py guiconfig.py core.py $(APPNAME).desktop README.md
 
 prepare:
 	mkdir -p $(DESTDIR)
