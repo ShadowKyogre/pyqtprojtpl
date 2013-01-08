@@ -1,0 +1,7 @@
+APPNAME="_APPNAME_"
+APPVERSION="0.1"
+AUTHOR="ShadowKyogre"
+DESCRIPTION="A small biorhythm application based on PyQt4."
+YEAR="2013"
+PAGE="http://shadowkyogre.github.com/_APPNAME_/"
+EMAIL="shadowkyogre.public@gmail.com"
