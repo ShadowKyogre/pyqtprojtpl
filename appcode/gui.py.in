@@ -30,6 +30,13 @@ class _APPNAME_(QtGui.QMainWindow):
 		toolbar.addAction(saveAction)
 		toolbar.addAction(aboutAction)
 
+	def about(self):
+		QtGui.QMessageBox.about (self, "About {}".format(APPNAME),
+		("<center><big><b>{0} {1}</b></big>"
+		"<br />{2}<br />(C) <a href=\"mailto:{3}\">{4}</a> {5}<br />"
+		"<a href=\"{6}\">{0} Homepage</a></center>")\
+		.format(APPNAME,APPVERSION,DESCRIPTION,EMAIL,AUTHOR,YEAR,PAGE))
+
 	def closeEvent(self,event):
 		#print("Saving configuration...")
 		#qtrcfg.save_settings()
