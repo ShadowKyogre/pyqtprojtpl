@@ -1,7 +1,8 @@
 APPNAME="_APPNAME_"
-APPVERSION="0.1"
+APPVERSION_TUPLE=(0, 1, 0)
+APPVERSION=".".join(APPVERSION_TUPLE)
 AUTHOR="ShadowKyogre"
-DESCRIPTION="A small biorhythm application based on PyQt4."
-YEAR="2013"
+DESCRIPTION="Description"
+YEAR="2016"
 PAGE="http://shadowkyogre.github.com/_APPNAME_/"
 EMAIL="shadowkyogre.public@gmail.com"
